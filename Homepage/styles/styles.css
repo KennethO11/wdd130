@@ -1,6 +1,6 @@
 header, footer {
     max-width: 840px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 nav {
@@ -17,15 +17,16 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff; /% shorthand for white %/;
-}    
-
-h1 {
-    border-bottom: 1px solid blue;display:inline-block;
+    color: #fff; /% shorthand for white %/
 }
 
-header, .grid, footer{
-    max-width: 840px;
+h1 {
+    border-bottom: 1px solid white;
+}
+
+.grid header,
+.grid footer {
+    max-width: 100%;
     margin: 0 auto;
 }
 
