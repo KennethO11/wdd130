@@ -1,8 +1,24 @@
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+  }
+  
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+  
+  aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+  }
+  
 header, footer {
     max-width: 840px;
     margin: 0 auto
 }
-
 nav {
     background-color: steelblue;
     padding: 1rem;
@@ -29,13 +45,11 @@ main img {
     float: right;
 }
 
-p{
-    margin-left: 10px;
-}
-
 h1 {
     border-bottom: 1px solid blue;
 }
+
+
 
 .grid header,
 .grid footer {
