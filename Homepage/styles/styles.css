@@ -29,6 +29,10 @@ main img {
     float: right;
 }
 
+p{
+    padding-left: 10px;
+}
+
 h1 {
     border-bottom: 1px solid blue;
 }
