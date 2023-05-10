@@ -20,8 +20,17 @@ nav a {
     color: #fff; /% shorthand for white %/
 }
 
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+
 h1 {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid blue;
 }
 
 .grid header,
