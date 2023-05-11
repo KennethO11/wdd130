@@ -1,24 +1,8 @@
-aside {
-    width: 20em;
-    text-align: center;
-    position: relative;
-  }
-  
-  aside img {
-    width: 200px;
-    height: auto;
-  }
-  
-  aside h2 {
-    position: absolute;
-    top: 10px;
-    left: 150px;
-  }
-  
 header, footer {
     max-width: 840px;
     margin: 0 auto
 }
+
 nav {
     background-color: steelblue;
     padding: 1rem;
@@ -36,6 +20,10 @@ nav a {
     color: #fff; /% shorthand for white %/
 }
 
+p {
+    
+}
+
 main img {
     width: 150px;
     height: auto;
@@ -49,27 +37,6 @@ h1 {
     border-bottom: 1px solid blue;
 }
 
-
-
-.grid header,
-.grid footer {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
-}
-
-main {
-    grid-column: 2/3;
-    margin: 1rem;
-}
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
+h1 {
+    text-align: right;
 }
