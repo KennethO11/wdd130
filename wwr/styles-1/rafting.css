@@ -1,5 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-
-:root {
-    background-color: white;
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
+
+.logo {
+    grid-column: 1 / span 1;
+}
+
+.nav {
+    grid-column: 2 / span 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
